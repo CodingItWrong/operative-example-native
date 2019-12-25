@@ -10,7 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "operative-client": "codingitwrong/operative-client#master",
+    "@react-native-community/async-storage": "^1.7.1",
+    "operative-client": "file:.yalc/operative-client",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
