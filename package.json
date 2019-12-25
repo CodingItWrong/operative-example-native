@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "operative-client": "codingitwrong/operative-client#master",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
