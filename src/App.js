@@ -1,16 +1,13 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, View, Text, StatusBar} from 'react-native';
+import {SafeAreaView, StatusBar} from 'react-native';
+import TodoList from './TodoList';
 
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView contentInsetAdjustmentBehavior="automatic">
-          <View>
-            <Text>Hello, world!</Text>
-          </View>
-        </ScrollView>
+      <SafeAreaView style={{flex: 1}}>
+        <TodoList />
       </SafeAreaView>
     </>
   );
