@@ -42,11 +42,11 @@ const TodoList = () => {
 
   return (
     <View style={{flex: 1}}>
-      <View>
+      <View style={{flexDirection: 'row'}}>
         <TextInput
           value={name}
           onChangeText={setName}
-          style={{borderWidth: 1}}
+          style={{flex: 1, borderWidth: 1, padding: 5}}
         />
         <Button onPress={handleSubmit} title="Add" />
       </View>
