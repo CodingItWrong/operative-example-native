@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import {Button, FlatList, Text, TextInput, View} from 'react-native';
 import axios from 'axios';
-import {useOperative, handleOutOfOrderSloppy} from 'operative-client';
-import AsyncStoragePersister from './AsyncStoragePersister';
+import {handleOutOfOrderSloppy} from 'operative-client';
+import {useOperative} from 'operative-react';
+import AsyncStoragePersister from 'operative-async-storage';
 
 const httpClient = axios.create({
   baseURL: 'http://localhost:3000/todos',
