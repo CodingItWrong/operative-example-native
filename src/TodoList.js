@@ -46,6 +46,7 @@ const TodoList = () => {
         <TextInput
           value={name}
           onChangeText={setName}
+          onEndEditing={handleSubmit}
           style={{flex: 1, borderWidth: 1, padding: 5}}
         />
         <Button onPress={handleSubmit} title="Add" />
